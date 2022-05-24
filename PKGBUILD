@@ -24,6 +24,9 @@ source=("http://distribute.atmel.no/tools/opensource/Atmel-AVR-GNU-Toolchain/${_
 md5sums=('a10ce1c02bc9e990f3c88252f3b7bb25'
          '81bd4c68c80c796d3e2acbe4ca9bec56')
 
+
+_target=avr
+
 _builddir=build
 
 prepare() {
