@@ -1,0 +1,16 @@
+--- gcc/gcc/graphite-poly_old.h	2022-05-13 13:28:25.509222713 +0200
++++ gcc/gcc/graphite-poly.h	2022-05-13 13:34:48.516585140 +0200
+@@ -27,6 +27,13 @@
+ # define isl_stat_ok 0
+ #endif
+ 
++#ifdef HAVE_isl
++#include <isl/constraint.h>
++#include <isl/set.h>
++#include <isl/map.h>
++#endif
++
++
+ typedef struct poly_dr *poly_dr_p;
+ 
+ typedef struct poly_bb *poly_bb_p;

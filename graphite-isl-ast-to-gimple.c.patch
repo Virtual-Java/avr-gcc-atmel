@@ -1,0 +1,14 @@
+--- gcc/gcc/graphite-isl-ast-to-gimple_old.c	2022-05-13 13:37:06.834940507 +0200
++++ gcc/gcc/graphite-isl-ast-to-gimple.c	2022-05-13 13:36:27.773523990 +0200
+@@ -22,9 +22,9 @@
+ 
+ #ifdef HAVE_isl
+ #include <isl/constraint.h>
+-#include <isl/set.h>
++//#include <isl/set.h>
+ #include <isl/union_set.h>
+-#include <isl/map.h>
++//#include <isl/map.h>
+ #include <isl/union_map.h>
+ #include <isl/ast_build.h>
+ 

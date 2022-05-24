@@ -1,0 +1,11 @@
+--- gcc/gcc/reload1_old.c	2022-05-13 13:07:53.360508310 +0200
++++ gcc/gcc/reload1.c	2022-05-13 13:00:53.749155730 +0200
+@@ -467,7 +467,7 @@
+ 
+   while (memory_address_p (QImode, tem))
+     {
+-      spill_indirect_levels++;
++      spill_indirect_levels += 1;
+       tem = gen_rtx_MEM (Pmode, tem);
+     }
+ 

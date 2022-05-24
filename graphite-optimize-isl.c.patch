@@ -1,0 +1,10 @@
+--- gcc/gcc/graphite-optimize-isl_old.c	2022-05-13 13:31:03.541705311 +0200
++++ gcc/gcc/graphite-optimize-isl.c	2022-05-13 13:37:51.473224507 +0200
+@@ -26,6 +26,7 @@
+ #include <isl/union_set.h>
+ #include <isl/map.h>
+ #include <isl/union_map.h>
++#include <isl/union_set.h> 
+ #include <isl/schedule.h>
+ #include <isl/band.h>
+ #include <isl/aff.h>
